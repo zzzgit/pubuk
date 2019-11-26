@@ -10,10 +10,10 @@
 	"types": "built/t/index.d.ts",
 	"scripts": {
 		"clean": "rimraf built coverage .nyc_output",
-		"build": "npm run test && npm run clean && cross-env NODE_ENV=production rollup -c",
+		"ffffffff-build": "npm run test && npm run clean && cross-env NODE_ENV=production rollup -c",
 		"lint": "eslint \"./test/**\" \"./src/**\"",
 		"jest": "jest",
-		"test": "npm run lint && jest",
+		"ffffffffff-test": "npm run lint && jest",
 		"ffffffffffffff-commit": "git-cz",
 		"bbb": "node ./kkk.js",
 		"foo": "echo foo",
